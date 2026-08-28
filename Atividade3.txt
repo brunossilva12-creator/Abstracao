@@ -2,7 +2,7 @@
 
             ContaBancaria MeuDeposito = new ContaBancaria();
             MeuDeposito.Titular = "Bruno de Sousa da Silva";
-            MeuDeposito.NumeroConta = "3232";
+            MeuDeposito.NumeroConta = 3232;
             MeuDeposito.Saldo = 2300.39;
             MeuDeposito.Deposito = 230.50;
 
@@ -11,7 +11,7 @@
 
             ContaBancaria MeuSaque = new ContaBancaria();
             MeuSaque.Titular = "Bruno de Sousa da Silva";
-            MeuSaque.NumeroConta = "3232";
+            MeuSaque.NumeroConta = 3232;
             MeuSaque.Saldo = 2300.39;
             MeuSaque.Saque = 2200;
 

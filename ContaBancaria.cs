@@ -5,7 +5,7 @@ namespace Abstracao
     public class ContaBancaria
     {
         public string Titular;
-        public string NumeroConta;
+        public int NumeroConta;
         public double Saldo;
         public double Deposito;
         public double Saque;
