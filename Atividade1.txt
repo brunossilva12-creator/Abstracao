@@ -1,0 +1,17 @@
+ //EXERCÍCIO 1
+
+            Produto Produto1 = new Produto();
+            Produto1.Nome = "Caneta";
+            Produto1.Preco = 2.99;
+            Produto1.QuantidadeEstoque = 500;
+
+            Console.WriteLine("Informações do produto: ");
+            Produto1.ExibirDados();
+
+            Produto Produto2 = new Produto();
+            Produto2.Nome = "Caderno";
+            Produto2.Preco = 39.99;
+            Produto2.QuantidadeEstoque = 200;
+
+            Console.WriteLine("Informações do produto: ");
+            Produto2.ExibirDados();

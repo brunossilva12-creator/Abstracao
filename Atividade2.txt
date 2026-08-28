@@ -1,0 +1,10 @@
+            //EXERCÍCIO 2
+
+            Aluno Aluno1 = new Aluno();
+            Aluno1.Nome = "Bruno";
+            Aluno1.Matricula = 4322;
+            Aluno1.Nota1 = 9.5;
+            Aluno1.Nota2 = 10;
+
+            Console.WriteLine("Informações do aluno: ");
+            Aluno1.ExibirInformacoesAluno();
