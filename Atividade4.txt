@@ -1,0 +1,31 @@
+            //EXERCÍCIO 4
+
+
+            Time Time = new Time();
+
+            Time.NomeDoTime = "Katarenai Fc";
+
+            Jogador Jogador1 = new Jogador();
+
+            Jogador1.Nome = "Matheus Franco";
+            Jogador1.Posicao = "Volante";
+            Jogador1.NumeroCamisa = 8;
+
+            Jogador Jogador2 = new Jogador();
+
+            Jogador2.Nome = "Guilherme";
+            Jogador2.Posicao = "Atacante";
+            Jogador2.NumeroCamisa = 9;
+
+            Jogador Jogador3 = new Jogador();
+
+            Jogador3.Nome = "Erik";
+            Jogador3.Posicao = "Lateral/Ponta";
+            Jogador3.NumeroCamisa = 17;
+
+            Time.AdicionarJogador(Jogador1);
+            Time.AdicionarJogador(Jogador2);
+            Time.AdicionarJogador(Jogador3);
+
+            Time.ListarJogadores();
+            Console.WriteLine("--------------------------------------");
