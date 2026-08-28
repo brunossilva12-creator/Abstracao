@@ -1,0 +1,19 @@
+            //EXERCÍCIO 3
+
+            ContaBancaria MeuDeposito = new ContaBancaria();
+            MeuDeposito.Titular = "Bruno de Sousa da Silva";
+            MeuDeposito.NumeroConta = "3232";
+            MeuDeposito.Saldo = 2300.39;
+            MeuDeposito.Deposito = 230.50;
+
+            Console.WriteLine("Informações do depósito: ");
+            MeuDeposito.Depositar();
+
+            ContaBancaria MeuSaque = new ContaBancaria();
+            MeuSaque.Titular = "Bruno de Sousa da Silva";
+            MeuSaque.NumeroConta = "3232";
+            MeuSaque.Saldo = 2300.39;
+            MeuSaque.Saque = 2200;
+
+            Console.WriteLine("Informações do saque: ");
+            MeuSaque.Sacar();
